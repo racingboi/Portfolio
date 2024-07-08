@@ -12,6 +12,7 @@ import Projects from "./components/Projects/Project";
 import AboutMe from "./components/About Me/AboutMe";
 import { useSelector } from "react-redux";
 import Mode from './theme/mode';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <AboutMe />
             <Footer />
             <Mode/>
+            <SpeedInsights />
         </div>
         /* To use browser-router comment upper section and uncomment app-content section and its imports     */
         /* <div className="app-content">
